@@ -5,9 +5,10 @@
   "author": "shadow <pieroramirez810@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "pacifico-cli": "dist/index.js",
+    "pacifico-cli": "node dist/index.js",
     "build": "tsc",
     "dev": "nodemon src/index.ts",
+    "prepublish": "tsc",
     "postbuild": "cp -r src/templates dist"
   },
   "devDependencies": {
