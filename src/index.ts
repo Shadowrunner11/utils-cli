@@ -47,7 +47,7 @@ async function extensionsReplace(){
 
 // TODO: refactor
 async function standardsAdd(){
-  const resolutions = await copyStandardsTemplates()
+  const resolutions = await copyStandardsTemplates(__dirname)
 
   const failed = resolutions
     .filter(({status})=> status === 'rejected') as PromiseRejectedResult[]
