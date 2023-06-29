@@ -1,5 +1,5 @@
 {
-  "name": "cli-pacifico",
+  "name": "@Shadowrunner11/utils-cli",
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": "shadow <pieroramirez810@gmail.com>",
@@ -26,5 +26,9 @@
   },
   "publishConfig": {
     "@Shadowrunner11:registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shadowrunner11/utils-cli.git"
   }
 }
