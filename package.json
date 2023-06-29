@@ -5,6 +5,7 @@
   "author": "shadow <pieroramirez810@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "pacifico-cli": "dist/index.js",
     "build": "tsc",
     "dev": "nodemon src/index.ts",
     "postbuild": "cp -r src/templates dist"
@@ -22,7 +23,7 @@
     "inquirer": "^8.0.0"
   },
   "bin":{
-    "pacifico-cli": "./dist/index.js"
+    "pacifico-cli": "dist/index.js"
   },
   "publishConfig": {
     "@Shadowrunner11:registry": "https://npm.pkg.github.com"
