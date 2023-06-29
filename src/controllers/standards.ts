@@ -15,7 +15,7 @@ export async function copyStandardsTemplates(root: string){
   return await Promise.allSettled([
     cpWrapper(
       join(root, "templates/PULL_REQUEST_TEMPLATE.md"), 
-      join(templateArtifactsBaseDir, '.github')
+      join(templateArtifactsBaseDir, '.github/PULL_REQUEST_TEMPLATE.md')
     ),
     cpWrapper(
       join(root, "templates/CONTRIBUTING.md"),
