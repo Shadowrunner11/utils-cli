@@ -23,5 +23,8 @@
   },
   "bin":{
     "pacifico-cli": "./dist/index.js"
+  },
+  "publishConfig": {
+    "@Shadowrunner11:registry": "https://npm.pkg.github.com"
   }
 }
